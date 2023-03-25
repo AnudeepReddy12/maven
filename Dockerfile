@@ -1,2 +1,2 @@
-FROM ubuntu:22.04.2
+FROM ubuntu:22.04
 COPY webapp/target/webapp.war ./usr/local/webapp.war
