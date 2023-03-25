@@ -1,2 +1,2 @@
 FROM ubuntu:22.04.2
-COPY target/*.war /usr/local/maven.war
+COPY target/webapp*.war /usr/local/webapp.war
