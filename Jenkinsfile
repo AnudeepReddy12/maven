@@ -12,7 +12,7 @@ pipeline {
         stage("Maven Build"){
             steps{
                 sh "mvn clean package"
-                sh "mv target/webapp*.war target/webapp.war"
+                sh "mv target/webapp.war webapp.war"
             }
         }
         stage('Build Docker Image'){
